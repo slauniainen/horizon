@@ -68,7 +68,7 @@ def read_AsciiGrid(fname, setnans=True):
 
 class Horizon(object):
     """
-    data structure for horizon height calcualtions
+    data structure for horizon height calculations
     """
     def __init__(self, dem, dx = 1, lat=None, lon=None):
         """
